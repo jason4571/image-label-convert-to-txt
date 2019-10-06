@@ -25,7 +25,6 @@ def xml_to_txt(path):
                 myfile.write(detect+' '+place_xmin+' '+place_ymin+' '+place_xmax+' '+place_ymax)
                 myfile.close()
             name = filename[0]
-            
 
 def main():
     for folder in ['test']:
