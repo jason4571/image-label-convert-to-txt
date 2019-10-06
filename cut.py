@@ -28,6 +28,6 @@ def moveFile(fileDir):
         return
 
 if __name__ == '__main__':
-	fileDir = "/home/terry/tensorflow/models-master/research/object_detection/image_cut/"
-	tarDir = '/home/terry/tensorflow/models-master/research/object_detection/image_cut/'
+	fileDir = "/home/terry/tensorflow/models-master/research/object_detection/image_cut/train"
+	tarDir = '/home/terry/tensorflow/models-master/research/object_detection/image_cut/test'
 	moveFile(fileDir)
